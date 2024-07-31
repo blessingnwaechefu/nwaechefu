@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav h1{
+    font-size: 30px ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+    nav ul li{
+        list-style: none;
+}
+    nav ul li a{
+        text-decoration: none; 
+        color: black;
+}
+nav button{
+    padding: 5px;
+}
+
+
+.blessing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.container1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 99px;
+    align-items: center;
+
+    
+}
+.first1{
+    width:600px ;
+    height: 500px;
+}
+.first1 h1{
+    font-size: 50px;
+    margin-top: 50px;
+}
+.first1 p{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.first1 button{
+    width: 100px;
+    height: 40px;
+    margin-top: 40px; 
+    background-color: navy;
+    border: none;
+}
+.first1{
+    width: 600px;
+    height: 500px;
+}
+.first2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+ .section2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: orange; */
+}
+.container2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.second1{
+    width: 600px;
+    height:400px ;
+
+}
+.second1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second2{
+    width:600px ;
+    height:400px ;
+    /* background-color: blue; */
+} 
+.second2 h1{
+    font-size:50px ;
+    margin-top:50px ;
+    margin-left: 50px;
+}
+.second2 p{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.second2 button{
+    width: 100px;
+    height: 40px;
+    margin-top: 40px; 
+    background-color: brown;
+    border: none;
+    margin-left: 50px;
+}
+
+.section3{
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .third{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-inline: 40px;
+        padding-block: 50px;
+    }
+      
+
+.third h1{
+        text-align: center;
+        font-size: 50px;
+        padding-bottom: 10px;
+    }
+
+.third p{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+/* .container3{ */
+    /* width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: green;
+} */
+ 
+.container3{
+    margin-top: 40px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-left: 80px;
+    z-index: ;
+}
+.container3 div{
+    width: 90%;
+}
+.container3 div img{
+    width: 100%;
+}
+.container3 div h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container3 div p{
+    width: 80%;
+    margin-bottom: 25px;
+}
+.container3 div a{
+    color: blue;
+    text-decoration: none;
+    border: 1.5px solid black;
+    padding: 10px;
+    font-size: 15px;
+}
+.container3 div a i{
+    padding-left: 10px;
+    transform: rotateZ(-30deg);
+}
+.section3{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+   }
+   .container4{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   .imagewrapper{
+       height: 500px;
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+   }
+   .wrapper1 {
+    height: 500px;
+}
+   .wrapper1 img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+    }
+   .wrapper2 {
+       width: 300px;
+       height: 500px;
+       justify-content: space-around;
+   }
+   .wrapper2a{
+    width: 300px;
+    height: 250px;
+   }
+   .wrapper2a img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+   .wrapper2b{
+    width: 300px;
+    height: 250px;
+   }
+   .wrapper2b img{
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+}
+.text{
+    width: 600px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.text p{
+    font-size: 20px ;
+    margin-top: 15px;
+    margin-left: 50px;
+
+}
+.text h2{
+    font-size:  50px; 
+    margin-top:15px ;
+    margin-left: 50px ;
+}
+.text dl{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.text dl dt{
+    margin-top: 10px;
+}
+.text dl dd{
+    margin-top: 20px;
+}
+.section4{
+
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .up{
+        text-align: center;
+        height: 50%;
+        width: 100%;
+        padding: 50px;
+        background-image: url(/images/WhatsApp\ Image\ 2024-07-13\ at\ 06.19.39_3d548ce2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .up h1{
+        font-size: 40px;
+        color: white;
+    }
+    .up p{
+       margin-top: 20px;
+      font-size: 20px;
+      color: white;
+    }
+    .up button{
+        margin-top: 20px;
+        width: 150px;
+        height: 40px;
+    }
+    .down {
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+        padding: 50px;
+        background-color: rgb(105, 68, 51);
+    }
+    .down a{
+        color: white;
+        text-decoration: none;
+    }
+    .down h3{
+        color: white;
+    }
+    .interior {
+        display: grid;
+    }
+    .about{
+        display: grid;
+    }
+    .help{
+        display: grid;
+    }
+    .developers{
+        display: grid;
+       
+    }
+    
+
+
+
+
+
+
+
+
+
